@@ -11,21 +11,6 @@ This project provides a MATLAB-based simulation of a multibody mechanism with re
 - Provides **graphical visualization** of motion characteristics.
 - Includes an **Adams model** for verification.
 
-## Repository Structure
-```
-├── Acceleration.m        # Computes acceleration using system constraints
-├── constraints.m         # Defines constraint equations for position analysis
-├── data.m                # Stores mechanism dimensions and joint definitions
-├── Jacobian.m            # Computes the Jacobian matrix for constraint equations
-├── Jacobian_origin.m     # Alternative Jacobian calculation for debugging
-├── NewtonRaphson.m       # Solves position constraints using the Newton-Raphson method
-├── Rot.m                 # Computes 2D rotation matrices
-├── sol_Problem_6.m       # Runs the full simulation and generates plots
-├── test.m                # Validates constraints at the initial configuration
-├── Velocity.m            # Computes velocity using constraint equations
-└── Adams_Model/          # Contains the Adams model for verification
-```
-
 ## Dependencies
 - **MATLAB** (Tested on R2021a and later)
 - **Adams** (For comparison with MATLAB results)
