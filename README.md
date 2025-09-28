@@ -1,7 +1,7 @@
 # Multibody Mechanism Simulation with MATLAB and Adams
 
 ## Overview
-This project provides a MATLAB-based simulation of a multibody mechanism with revolute and translational joints. The simulation includes **position, velocity, and acceleration analysis** of the system using kinematic equations and numerical solvers. Additionally, an **Adams model** is included in the repository for validation and comparison with the MATLAB results.
+This project provides a MATLAB-based simulation of a multibody mechanism with revolute and translational joints. The simulation includes **position, velocity, and acceleration analysis** of the system using kinematic equations and numerical solvers. Additionally, an **Adams model** is included in the repository for validation and comparison with the MATLAB results. For the results and detailed information, you can check [Yagiz_Soyleguzel_Task_5].
 
 ## Features
 - Solves the **kinematics problem** (position, velocity, acceleration) for the mechanism.
@@ -33,9 +33,6 @@ This project provides a MATLAB-based simulation of a multibody mechanism with re
 ## How to Run
 1. Open MATLAB and navigate to the project directory.
 2. Run the main solver:
-   ```matlab
-   [T, Q, DQ, D2Q] = sol_Problem_6();
-   ```
 3. The script will:
    - Solve position, velocity, and acceleration.
    - Plot motion characteristics for selected points.
